@@ -10,3 +10,10 @@ spring:
     mongodb:
       uri: "mongodb+srv://ddcdeveloper95:overdose95@cluster0.v5cmi.mongodb.net/?retryWrites=true&w=majority"
       database: msbootcamp072022
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
