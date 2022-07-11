@@ -1,5 +1,5 @@
 server:
-  port: 8099
+  port: 8090
 
 logging:
   pattern:
@@ -23,17 +23,14 @@ spring:
           uri: lb://bank-service
           predicates:
             - Path=/bank/**
-
         - id: customer-service
           uri: lb://customer-service
           predicates:
             - Path=/customers/**
-
         - id: purchase-service
           uri: lb://purchase-service
           predicates:
             - Path=/purchases/** 
-
         - id: transaction-service
           uri: lb://transaction-service
           predicates:
