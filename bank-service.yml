@@ -5,11 +5,11 @@ logging:
   pattern:
     console: "%d{dd-MM-yyyy HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
 
-spring:
-  data:
-    mongodb:
-      uri: "mongodb+srv://ddcdeveloper95:overdose95@cluster0.v5cmi.mongodb.net/?retryWrites=true&w=majority"
-      database: msbootcamp072022
+# spring:
+#   data:
+#     mongodb:
+#       uri: "mongodb+srv://ddcdeveloper95:overdose95@cluster0.v5cmi.mongodb.net/?retryWrites=true&w=majority"
+#       database: msbootcamp072022
 
 eureka:
   client:
